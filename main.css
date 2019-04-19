@@ -1,0 +1,157 @@
+body {
+  font-family: "Satisfy", cursive;
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/icons/Web\ 1920\ –\ 1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: rgb(250, 228, 232); */
+}
+
+/* .container.fleur {
+  border: 10px solid pink;
+} */
+/* navbar */
+.navbar-nav {
+  margin-left: 40px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.navbar .navbar-collapse {
+  background-color: transparent;
+}
+.navbar-nav .nav-item.active .nav-link {
+  color: rgb(231, 106, 127);
+  font-weight: bold;
+}
+
+/* about us  */
+#about {
+  margin-left: 20px;
+}
+
+.one p.lead {
+  margin-top: 100px;
+  font-size: 10px;
+  color: rgb(231, 106, 127);
+}
+
+.one h2 {
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.one h2 span {
+  color: rgb(231, 106, 127);
+  background-color: rgb(247, 212, 212);
+}
+.one p.text-secondary {
+  margin-top: 50px;
+}
+.one .btn {
+  margin-top: 50px;
+  border: 2px solid rgb(231, 106, 127);
+  border-radius: 4px;
+}
+.one .btn:hover {
+  background-color: rgb(231, 106, 127);
+  color: #000;
+}
+
+.two {
+  width: 80%;
+  height: 500px;
+  border: 2px solid rgb(231, 106, 127);
+  border-radius: 5px;
+  background-image: url("images/img1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* portfolio  */
+
+#portfolio .bd-example {
+  margin-top: 100px;
+  border: 3px solid rgb(231, 106, 127);
+  background-color: rgb(231, 106, 127) !important;
+  opacity: 0.9;
+}
+
+.cards {
+  margin-top: 30px;
+  padding-top: 10px;
+  margin-left: 50px;
+}
+.cards h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000;
+}
+.cards h3 span {
+  color: rgb(231, 106, 127);
+}
+.cards .line {
+  width: 200px;
+  height: 3px;
+  background-color: rgb(231, 106, 127);
+}
+.cards .card {
+  box-shadow: 5px 10px 8px 10px rgb(231, 106, 127);
+  border-radius: 20px;
+}
+
+.cards .card-body {
+  text-align: center;
+  background-color: rgb(231, 106, 127);
+}
+.cards .card-body .card-text p {
+  font-size: 1.4rem;
+  color: #fff;
+  text-shadow: 5px 6px 5px #fff;
+}
+.cards .card-body .card-text .btn {
+  border: 2px solid #fff;
+  text-shadow: 5px 10px 10px rgb(231, 106, 127);
+  background-color: rgb(231, 106, 127);
+  color: #fff;
+}
+.cards .card-body .card-text .btn:hover {
+  background-color: #fff;
+  color: rgb(231, 106, 127);
+}
+
+/* footer  */
+footer#contact {
+  margin-top: 70px;
+  width: 100%;
+  height: 150px;
+  background-color: #000;
+  border-top: 1px solid rgb(231, 106, 127);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.icons .fab {
+  margin-top: 5px;
+  color: rgb(231, 106, 127);
+  font-size: 1.4rem;
+  padding: 4px;
+}
+.icons .fab:hover {
+  cursor: pointer;
+  color: #fff;
+}
+footer span {
+  font-size: 0.6rem;
+}
